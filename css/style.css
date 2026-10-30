@@ -64,8 +64,8 @@ h5,
 }
 
 .form-control:focus {
-border-color: var(--marrom-medio);
-box-shadow: 0 0 0 ,25rem rgba(141, 110, 99, .25)
+    border-color: var(--marrom-medio);
+    box-shadow: 0 0 0, 25rem rgba(141, 110, 99, .25)
 }
 
 .form-check-input:checked {
@@ -96,4 +96,41 @@ box-shadow: 0 0 0 ,25rem rgba(141, 110, 99, .25)
     overflow: hidden;
     background-color: var(--branco);
     transition: .3s, box-shadow .3s;
+    height: 100%;
+}
+
+.cartao-gato:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 1rem 2rem rgba(62, 39, 35, .25);
+}
+
+.cartao-gato img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.cartao-gato .card-title {
+    color: var(--marrom);
+    font-size: 1.6rem;
+}
+
+.info-gato {
+    list-style: none;
+    padding: 0;
+    border-bottom: 1px solid var(creme);
+}
+
+.info-gato strong {
+    color: var(--marrom-medio);
+}
+
+.etiqueta-sexo {
+    background-color: var(--marrom-escuro);
+    color: var(--marrom-claro);
+}
+
+/* RODAPÉ */
+.rodape-cafe {
+    background-color: var(--marrom-escuro);
+    color: var(--marrom-claro);
 }
