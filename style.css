@@ -1,0 +1,141 @@
+/* ===== PALETA DE CORES (edite aqui para mudar o site todo) ===== */
+:root {
+    --marrom-escuro: #3e2723;
+    --marrom: #6d4c41;
+    --marrom-medio: #8d6e63;
+    --marrom-claro: #d7ccc8;
+    --creme: #fff8e1;
+    /* amarelo claro */
+    --branco: #ffffff;
+    --destaque: #ffca28;
+    /* amarelo para detalhes */
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: var(--creme);
+    color: var(--marrom-escuro);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.navbar-brand {
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* ===== MENU ===== */
+.menu-cafe {
+    background-color: var(--marrom-escuro);
+    border-bottom: 4px solid var(--destaque);
+}
+
+.menu-cafe .navbar-brand {
+    color: var(--creme);
+    font-size: 1.6rem;
+}
+
+/* ===== BANNER DO TOPO ===== */
+.banner-topo {
+    background: linear-gradient(180deg, var(--marrom) 0%, var(--marrom-medio) 100%);
+    color: var(--creme);
+    padding: 4rem 0 6rem;
+    margin-bottom: -3rem;
+}
+
+.banner-topo h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+}
+
+/* ===== CARTÃO DO FORMULÁRIO ===== */
+.cartao-cafe {
+    border: none;
+    border-radius: 1.5rem;
+    background-color: var(--branco);
+}
+
+.secao {
+    color: var(--marrom);
+    border-bottom: 2px dashed var(--marrom-claro);
+    padding-bottom: .5rem;
+    margin-bottom: 1rem;
+}
+
+.form-control:focus {
+    border-color: var(--marrom-medio);
+    box-shadow: 0 0 0 .25rem rgba(141, 110, 99, .25);
+}
+
+.form-check-input:checked {
+    background-color: var(--marrom);
+    border-color: var(--marrom);
+}
+
+/* ===== BOTÕES ===== */
+.botao-cafe {
+    background-color: var(--marrom);
+    color: var(--creme);
+    border: none;
+    border-radius: 50rem;
+    font-family: 'Fredoka', sans-serif;
+    transition: transform .2s, background-color .2s;
+}
+
+.botao-cafe:hover {
+    background-color: var(--marrom-escuro);
+    color: var(--destaque);
+    transform: translateY(-2px);
+}
+
+/* ===== CARTÕES DOS GATOS ===== */
+.cartao-gato {
+    border: none;
+    border-radius: 1.25rem;
+    overflow: hidden;
+    background-color: var(--branco);
+    transition: transform .3s, box-shadow .3s;
+    height: 100%;
+}
+
+.cartao-gato:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 1rem 2rem rgba(62, 39, 35, .25);
+}
+
+.cartao-gato img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.cartao-gato .card-title {
+    color: var(--marrom);
+    font-size: 1.6rem;
+}
+
+.info-gato {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem;
+}
+
+.info-gato li {
+    padding: .35rem 0;
+    border-bottom: 1px solid var(--creme);
+}
+
+.info-gato strong {
+    color: var(--marrom-medio);
+}
+
+.etiqueta-sexo {
+    background-color: var(--destaque);
+    color: var(--marrom-escuro);
+}
+
+/* ===== RODAPÉ ===== */
+.rodape-cafe {
+    background-color: var(--marrom-escuro);
+    color: var(--marrom-claro);
+}
