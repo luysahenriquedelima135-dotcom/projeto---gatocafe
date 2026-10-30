@@ -26,7 +26,7 @@ h5,
     font-family: 'Fredoka', sans-serif;
 }
 
-/* ===== MENU ===== */
+/* MENU */
 .menu-cafe {
     background-color: var(--marrom-escuro);
     border-bottom: 4px solid var(--destaque);
@@ -37,7 +37,7 @@ h5,
     font-size: 1.6rem;
 }
 
-/* ===== BANNER DO TOPO ===== */
+/* BANNER DO TOPO*/
 .banner-topo {
     background: linear-gradient(180deg, var(--marrom) 0%, var(--marrom-medio) 100%);
     color: var(--creme);
@@ -49,11 +49,11 @@ h5,
     font-size: clamp(2rem, 5vw, 3rem);
 }
 
-/* ===== CARTÃO DO FORMULÁRIO ===== */
+/* CARTÃO DO FORMULÁRIO*/
 .cartao-cafe {
     border: none;
     border-radius: 1.5rem;
-    background-color: var(--branco);
+    background-color: var(branco);
 }
 
 .secao {
@@ -64,8 +64,8 @@ h5,
 }
 
 .form-control:focus {
-    border-color: var(--marrom-medio);
-    box-shadow: 0 0 0 .25rem rgba(141, 110, 99, .25);
+border-color: var(--marrom-medio);
+box-shadow: 0 0 0 ,25rem rgba(141, 110, 99, .25)
 }
 
 .form-check-input:checked {
@@ -73,7 +73,7 @@ h5,
     border-color: var(--marrom);
 }
 
-/* ===== BOTÕES ===== */
+/* BOTÕES */
 .botao-cafe {
     background-color: var(--marrom);
     color: var(--creme);
@@ -89,53 +89,11 @@ h5,
     transform: translateY(-2px);
 }
 
-/* ===== CARTÕES DOS GATOS ===== */
+/* CARTÕES DOS GATOS */
 .cartao-gato {
     border: none;
     border-radius: 1.25rem;
     overflow: hidden;
     background-color: var(--branco);
-    transition: transform .3s, box-shadow .3s;
-    height: 100%;
-}
-
-.cartao-gato:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 1rem 2rem rgba(62, 39, 35, .25);
-}
-
-.cartao-gato img {
-    height: 250px;
-    object-fit: cover;
-}
-
-.cartao-gato .card-title {
-    color: var(--marrom);
-    font-size: 1.6rem;
-}
-
-.info-gato {
-    list-style: none;
-    padding: 0;
-    margin: 0 0 1rem;
-}
-
-.info-gato li {
-    padding: .35rem 0;
-    border-bottom: 1px solid var(--creme);
-}
-
-.info-gato strong {
-    color: var(--marrom-medio);
-}
-
-.etiqueta-sexo {
-    background-color: var(--destaque);
-    color: var(--marrom-escuro);
-}
-
-/* ===== RODAPÉ ===== */
-.rodape-cafe {
-    background-color: var(--marrom-escuro);
-    color: var(--marrom-claro);
+    transition: .3s, box-shadow .3s;
 }
